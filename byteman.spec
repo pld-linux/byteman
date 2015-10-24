@@ -7,13 +7,13 @@
 Summary:	Java agent-based bytecode injection tool
 Summary(pl.UTF-8):	Oparte na agencie narzędzie do wstrzykiwania kodu dla Javy
 Name:		byteman
-Version:	2.1.3
+Version:	3.0.1
 Release:	1
 License:	LGPL v2+
 Group:		Development/Languages/Java
 #Source0Download: https://www.jboss.org:443/byteman/downloads.html
 Source0:	http://downloads.jboss.org/byteman/%{version}/byteman-download-%{version}-full.zip
-# Source0-md5:	1942cd887fc401b30fe17e88bc086737
+# Source0-md5:	c704769662f4dd06233dc659f2d24329
 URL:		http://www.jboss.com/byteman/
 # this is needed for the LC_ALL=en_US in build part dependency
 %if %(locale -a | grep -q '^en_US$'; echo $?)
