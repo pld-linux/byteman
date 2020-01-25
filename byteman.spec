@@ -3,7 +3,6 @@
 # http://pkgs.fedoraproject.org/cgit/byteman.git/plain/byteman.spec
 # - javadocs
 #
-%include	/usr/lib/rpm/macros.java
 Summary:	Java agent-based bytecode injection tool
 Summary(pl.UTF-8):	Oparte na agencie narzędzie do wstrzykiwania kodu dla Javy
 Name:		byteman
